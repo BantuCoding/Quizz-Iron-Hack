@@ -1,0 +1,78 @@
+html{
+    background-image: url(Brown\ and\ Cream\ Motivational\ Blog\ Banner.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+h1{
+    color: white;
+    
+}
+.container{
+    height: 330px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(255,255,255, 0.5);
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: 0 0 8px 3px #fff;
+}
+.titre{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: rgb(17, 17, 17);
+}
+.question{
+    padding: 20px;
+    font-size: 22px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: 10px 0 10px 0;
+    color: rgb(12, 11, 12);
+}
+.option{
+    width:  470px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    background: rgb(214, 221, 221);
+    margin:10px 0 10px 10px;
+    color: rgb(15, 15, 15);
+    border-radius: 20px;
+    height: 15px;
+}
+.option:hover{
+    background: skyblue;
+    color: snow;
+}
+.nxt-btn{
+    border: none;
+    outline: none;
+    background: rgb(59, 89, 107);
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor:pointer;
+    float: right;
+    margin: 10px;
+}
+.nxt-btn:hover{
+    background: rgb(43, 174, 226);
+    color: white;
+}
+.result{
+    height: 100px;
+    text-align: center;
+    font-size:75px;
+}
+.option input: checked.option{
+    background: white;
+    color: black;
+}
